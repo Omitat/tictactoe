@@ -160,9 +160,9 @@ class Game
 
   def draw
     if @win == false && @turn == 9
-      @draw = true
-    end
-    while @draw
+      #   @draw = true
+      # end
+      # while @draw
       puts "It's a draw! Game over! Want to play again? (y/n)"
       answer = gets.chomp.downcase
 
